@@ -12,7 +12,7 @@ repositories {
 }
 
 jar {
-    baseName("demoMqttBroker")
+    baseName("mqtt")
     from {
         //添加依懒到打包文件
         //configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
